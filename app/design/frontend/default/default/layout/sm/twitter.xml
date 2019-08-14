@@ -1,0 +1,14 @@
+<?xml version="1.0"?>   
+<layout version="1.0">
+	<default>
+        <reference name="head">
+        	<action method="addCss"><stylesheet>sm/twitter/css/twitter.css</stylesheet></action>
+        </reference>
+    </default>
+	<twitter_index_index>
+		<reference name="content">
+			<block type="twitter/list" name="twitter.list.default"></block>
+		</reference>
+	</twitter_index_index>	
+</layout>   
+	

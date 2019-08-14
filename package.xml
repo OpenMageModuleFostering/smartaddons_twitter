@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>smartaddons_twitter</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>A must have extension of Magento</summary>
+    <description>New design, More features, Store Offline </description>
+    <notes>test more than 100 hours</notes>
+    <authors><author><name>SmartAddons</name><user>smartaddons</user><email>marketing@ytcvn.com</email></author></authors>
+    <date>2013-08-17</date>
+    <time>02:02:33</time>
+    <contents><target name="magelocal"><dir name="Sm"><dir name="Twitter"><dir name="Block"><file name="List.php" hash="446dccbb380ac1d6fadadaf737883074"/></dir><dir name="Helper"><file name="Data.php" hash="f4deb67bfd5091fb81a99b3eca73320b"/><file name="Utils.php" hash="9729d6aaa79627b38eba437ad65f8820"/></dir><dir name="Model"><dir name="System"><dir name="Config"><dir name="Source"><file name="ListTheme.php" hash="7ca4bdf2fc05a953370c690215347eda"/></dir></dir></dir></dir><dir name="controllers"><file name="IndexController.php" hash="85fa24683462fe03d17904dcba1030d1"/></dir><dir name="etc"><file name="config.xml" hash="1888a97361894f418eb4bb0e8a3437e9"/><file name="system.xml" hash="14a60855f2d6fe4c5a917bbf378170cc"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><dir name="sm"><file name="twitter.xml" hash="6f1010a487bc9bdc352177ca3d19010f"/></dir></dir><dir name="template"><dir name="sm"><dir name="twitter"><file name="default.phtml" hash="ed4f69a351569b80ae4a48bb6ac52a38"/></dir></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="sm"><dir name="twitter"><dir name="css"><file name="twitter.css" hash="bb7a9eaf6e52f702a3c1789dd202eed0"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Sm_Twitter.xml" hash="e176f5befc5985cb70e3925d3d402c08"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

@@ -1,0 +1,16 @@
+.sm-twitter-pre ,
+.sm-twitter-pos{
+	margin: 15px 0;
+	width: 100%;
+}
+.sm-twitter-pos{
+	margin-top: 10px;
+}
+
+.twitter-timeline.twitter-timeline-rendered{
+	width: 100%;
+}
+
+.timeline-footer {
+    padding: 0 !important;
+}
